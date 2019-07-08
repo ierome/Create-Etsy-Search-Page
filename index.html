@@ -1,0 +1,199 @@
+<!--
+    To-do list:
+    Discover, Cart, Gifts button logo.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6398d9efb1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="headerLeft">
+                <div class="logo"><img src="https://cdn.worldvectorlogo.com/logos/etsy.svg"></div>
+                <div class="search">
+                    <input type="text" placeholder="whiskey">
+                    <i id="searchIcon" class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="headerRight">
+                <ul class="navbar">
+                    <li>Sell on Etsy</li>
+                    <li>Register</li>
+                    <li>Sign in</li>
+                    <div class="discover">
+                        <i class="fas fa-treasure-chest"></i>
+                        <li class="discoveryBitch">Discover</li>
+                    </div>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <li class="cartBitch">Cart</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="mainNav">
+            <a href="#">Jewelry & Accessories</a>
+            <a href="#">Clothing & Shoes</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Wedding & Party</a>
+            <a href="#">Toys & Entertainment</a>
+            <a href="#">Art & Collectibles</a>
+            <a href="#">Craft Supplies</a>
+            <a href="#">Vintage</a>
+            <div class="gifts">
+                <i class="fas fa-gift"></i>
+                <a href="#">Gifts</a>
+
+            </div>
+        </div>
+        <div class="tagNav">
+            <li class="tags">whiskey decanter</li>
+            <li class="tags">whiskey glasses</li>
+            <li class="tags">whiskey barrel</li>
+            <li class="tags">whiskey stones</li>
+            <li class="tags">whiskey shirt</li>
+            <li class="tags">whisky</li>
+            <li class="tags">scotch</li>
+            <li class="tags">whiskey dispenser</li>
+            <li class="tags">bourbon</li>
+            <li class="tags">beer</li>
+        </div>
+        <div class="mainWrap">
+            <div class="side">
+                <div class="categories">
+                    <p class="filterHeader">All Categories</p>
+                    <li>Home & Living</li>
+                    <li>Arts & Collectibles</li>
+                    <li>Weddings</li>
+                    <li>Clothing</li>
+                    <p class="filterHeader">+ Show more</p>
+                </div>
+                <div class="specials">
+                    <p class="filterHeader">Special Offers</p>
+                    <li><input type="checkbox">FREE shipping</li>
+                    <li><input type="checkbox">On sale</li>
+                </div>
+                <div class="readyShip">
+                    <p class="filterHeader">Ready to ship in</p>
+                    <li><input type="checkbox">1 business day</li>
+                    <li><input type="checkbox">1 - 3 Business days</li>
+                </div>
+                <div class="shopLocation">
+                    <p class="filterHeader">Shop Location</p>
+                    <li><input type="radio">Anywhere</li>
+                    <li><input type="radio">United States</li>
+                    <li><input type="radio">Custom</li>
+                    <div class="locationDiv">
+                        <li><input type="text" class="location" placeholder="Enter Location"></li><i id="arrowImg1"
+                            class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="itemType">
+                    <p class="filterHeader">Item type</p>
+                    <li><input type="radio">All items</li>
+                    <li><input type="radio">Handmade</li>
+                    <li><input type="radio">Vintage</li>
+                </div>
+                <div class="priceFilter">
+                    <p class="filterHeader">Price ($)</p>
+                    <li><input type="radio">Any price</li>
+                    <li><input type="radio">Under $25</li>
+                    <li><input type="radio">$25 to $50</li>
+                    <li><input type="radio">$50 to $100</li>
+                    <li><input type="radio">Over $100</li>
+                    <li><input type="radio">Custom</li>
+                    <div class="range">
+                        <input class="low" type="text" placeholder="Low">
+                        <p class="toText"> to </p><input class="high" type="text" placeholder="High"><i id="arrowImg"
+                            class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="colorFilter">
+                    <p class="filterHeader">Color</p>
+                    <li><input type="checkbox">Clear</li>
+                    <li><input type="checkbox">Black</li>
+                    <li><input type="checkbox">White</li>
+                    <li><input type="checkbox">Brown</li>
+                    <li><input type="checkbox">Blue</li>
+                    <p class="filterHeader">+ Show more</p>
+                </div>
+                <div class="orderOptions">
+                    <p class="filterHeader">Ordering options</p>
+                    <li><input type="checkbox">Accepts Etsy gift cards</li>
+                    <li><input type="checkbox">Customizeable</li>
+                    <li><input type="checkbox">Can be gift wrapped</li>
+                </div>
+                <div class="shipTo">
+                    <p class="filterHeader">Ship to</p>
+                    <select class="country">
+                        <option value="usa">United States</option>
+                        <option value="chine">China</option>
+                    </select>
+                </div>
+            </div>
+            <div class="contentWrapper">
+            </div>
+        </div>
+        <div class="wrapperPage">
+            <p class="somuchmore">There's so much more for you to discover</p>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#" class="active">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+        <div class="footer">
+        <div class="footShop">
+            <h3>Shop</h3>
+            <li>Gift cards</li>
+            <li>Etsy blog</li>
+        </div>
+        <div class="footSell">
+            <h3>Sell</h3>
+            <li>Sell on Etsy</li>
+            <li>Teams</li>
+            <li>Forums</li>
+            <li>Affiliates</li>
+        </div>
+        <div class="footAbout">
+            <h3>About</h3>
+            <li>Etsy, Inc.</li>
+            <li>Policies</li>
+            <li>Investors</li>
+            <li>Careers</li>
+            <li>Press</li>
+            <li>Impact</li>
+        </div>
+        <div class="footHelp">
+            <h3>Help</h3>
+            <li>Help Center</li>
+            <div class="appDownload">
+                <img src="https://i.imgur.com/l1zLxSI.png">
+            </div>
+            <div class="footSocials">
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="items.js"></script>
+<script src="main.js"></script>
+
+</html>

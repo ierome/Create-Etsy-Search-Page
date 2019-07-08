@@ -421,3 +421,11 @@ select::-ms-expand {
     text-align: center;
     margin-bottom: 20px;
 }
+#chest {
+    position: relative;
+    left: 22px;
+}
+#cart {
+    position: relative;
+    left: 12px;
+}
